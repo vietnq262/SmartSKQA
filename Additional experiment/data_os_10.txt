@@ -1,0 +1,1 @@
+Knowledge Component (KC) 1 is Threads. KC2 is Multithreading Models. KC3 is Many-to-One Model. KC4 is One-to-One Model. KC5 is Many-to-Many Model. KC1 has relation with KC2 and KC2 has relation with KC3. KC1 has relation with KC2 and KC2 has relation with KC4. KC1 has relation with KC2 and KC2 has relation with KC5. 

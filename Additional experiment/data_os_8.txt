@@ -1,0 +1,1 @@
+Knowledge Component (KC) 1 is  IPC in Message-Passing Systems. KC2 is Naming. KC3 is Synchronization. KC4 is Buffering. KC5 is Context Switch. KC1 has relation with KC2 and KC2 has relation with KC3. KC1 has relation with KC2 and KC2 has relation with KC4. 

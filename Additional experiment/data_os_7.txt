@@ -1,0 +1,1 @@
+Knowledge Component (KC) 1 is Process. KC2 is Process Scheduling. KC3 is Scheduling Queues. KC4 is CPU Scheduling. KC5 is Context Switch. KC1 has relation with KC2 and KC2 has relation with KC3. KC1 has relation with KC2 and KC2 has relation with KC4. KC1 has relation with KC2 and KC2 has relation with KC5. 

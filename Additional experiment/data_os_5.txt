@@ -1,0 +1,1 @@
+Knowledge Component (KC) 1 is Threads. KC2 is Thread Libraries. KC3 is  Pthreads. KC4 is Windows Threads. KC5 is Java Threads. KC1 has relation with KC2 and KC2 has relation with KC3. KC1 has relation with KC2 and KC2 has relation with KC4. KC1 has relation with KC2 and KC2 has relation with KC5. 
