@@ -1,0 +1,1 @@
+Knowledge Component 1 is Relation. Knowledge Component 2 is Set. Knowledge Component 3 is one of list: Subset, Cartesian product, Cardinality, Equality, Union, Intersection, Difference, Tuple. Knowledge Component 1 has relation with Knowledge Component 2 and Knowledge Component 2 has relation with Knowledge Component 3. 

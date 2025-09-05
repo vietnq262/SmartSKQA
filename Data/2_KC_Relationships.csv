@@ -1,0 +1,203 @@
+ID,from_knowledgecomponent_name,to_knowledgecomponent_name
+1,Set,Subset
+2,Set,Cartesian product
+3,Set,Cardinality
+4,Set,Equality
+5,Set,union
+6,Set,Intersection
+7,Set,Difference
+8,Set,Tuple
+9,Set,Relation
+10,Cartesian product,Set
+11,Cardinality,Set
+12,Equality,Set
+13,union,Set
+14,Intersection,Set
+15,Difference,Set
+16,Subset,Set
+17,Tuple,Set
+18,Relational data model,Domain
+19,Relational data model,Schema
+20,Relational data model,Functional dependencies
+21,Relational data model,Foreign key
+22,Relational data model,Candidate key
+23,Relational data model,Primary Key
+24,Relational data model,Attribute
+25,Relational data model,Superkey
+26,Domain,Relational data model
+27,Attribute,Prime Attribute
+28,Attribute,Relational data model
+29,Attribute,Closure
+30,Relation,Set
+31,Superkey,Key attributes
+32,Superkey,Relational data model
+33,Foreign key,Relational data model
+34,Foreign key,Key attributes
+35,Schema,Relational data model
+36,SQL,Query
+37,SQL,DML
+38,SQL,DDL
+39,SQL,Data type
+40,DDL,ALTER TABLE
+41,DDL,SQL
+42,DDL,CREATE TABLE
+43,DDL,DROP TABLE
+44,Data type,SQL
+45,CREATE TABLE,DDL
+46,DROP TABLE,DDL
+47,ALTER TABLE,DDL
+48,Candidate key,Relational data model
+49,Candidate key,Key attributes
+50,DML,SQL
+51,DML,SELECT DISTINCT
+52,DML,SELECT
+53,DML,INSERT
+54,DML,DELETE
+55,SELECT,DML
+56,INSERT,DML
+57,DELETE,DML
+58,Query,EXCEPT
+59,Query,SQL
+60,Query,EXISTS
+61,Query,GROUP BY
+62,Query,Join
+63,Join,Natural Join
+64,Join,Query
+65,Join,Inner Join
+66,Join,Left Join
+67,Primary Key,Relational data model
+68,Primary Key,Key attributes
+69,SELECT DISTINCT,DML
+70,GROUP BY,Query
+71,GROUP BY,COUNT
+72,GROUP BY,MIN
+73,GROUP BY,HAVING
+74,COUNT,GROUP BY
+75,MIN,GROUP BY
+76,HAVING,GROUP BY
+77,EXCEPT,Query
+78,Inner Join,Join
+79,Natural Join,Join
+80,Left Join,Join
+81,EXISTS,Query
+82,Entity-Relationship Model,Data Model
+83,Entity-Relationship Model,Entity
+84,Entity-Relationship Model,weak entity 
+85,Entity-Relationship Model,Enhanced Entity-Relationship
+86,Data structure,Data Model
+87,Relationship,Cardinality ratios
+88,Relationship,Participation constraints
+89,Entity,Enhanced Entity-Relationship
+90,Entity,Entity-Relationship Model
+91,Total ,Participation constraints
+92,Data integrity,Data Model
+93,Data integrity,Cardinality ratios
+94,Data integrity,Participation constraints
+95,weak entity ,Entity-Relationship Model
+96,Key attributes,Foreign key
+97,Key attributes,Primary Key
+98,Key attributes,Candidate key
+99,Key attributes,Superkey
+100,Enhanced Entity-Relationship,Subclass
+101,Enhanced Entity-Relationship,Data Model
+102,Enhanced Entity-Relationship,Entity
+103,Enhanced Entity-Relationship,Superclass
+104,Enhanced Entity-Relationship,Entity-Relationship Model
+105,Subclass,Enhanced Entity-Relationship
+106,Superclass,Enhanced Entity-Relationship
+107,Data Model,Enhanced Entity-Relationship
+108,Data Model,Data integrity
+109,Data Model,Entity-Relationship Model
+110,Data Model,Data structure
+111,Cardinality ratios,Many-To-Many
+112,Cardinality ratios,One-To-Many
+113,Cardinality ratios,Relationship
+114,Cardinality ratios,Data integrity
+115,Cardinality ratios,One-To-One
+116,Participation constraints,Total 
+117,Participation constraints,Data integrity
+118,Participation constraints,Relationship
+119,Participation constraints,partial
+120,Many-To-Many,Cardinality ratios
+121,One-To-Many,Cardinality ratios
+122,One-To-One,Cardinality ratios
+123,partial,Participation constraints
+124,Functional dependencies,Implied
+125,Functional dependencies,Equivalent
+126,Functional dependencies,Minimal Cover
+127,Functional dependencies,Relational data model
+128,Functional dependencies,Trivial
+129,Trivial,Functional dependencies
+130,Closure,Attribute
+131,Implied,Functional dependencies
+132,Equivalent,Functional dependencies
+133,Minimal Cover,Functional dependencies
+134,Prime Attribute,Attribute
+135,Normalisation,Lossless Join
+136,Normalisation,Dependency preservation
+137,Normalisation,Boyce-Codd normal form (BCNF)
+138,Normalisation,Third normal form (3NF)
+139,Lossless Join,Normalisation
+140,Dependency preservation,Normalisation
+141,Boyce-Codd normal form (BCNF),Normalisation
+142,Third normal form (3NF),Normalisation
+143,Relational Algebra,Projection
+144,Relational Algebra,Renaming
+145,Relational Algebra,Selection
+146,Projection,Relational Algebra
+147,Selection,Relational Algebra
+148,Renaming,Relational Algebra
+149,Database Security,Authentication
+150,Database Security,Access Control
+151,Database Security,SQL Injection
+152,Database Security,Role-Based Access Control (RBAC)
+153,Access Control,Authentication
+154,Access Control,Database Security
+155,Access Control,Role-Based Access Control (RBAC)
+156,Access Control,Mandatory Access Control (MAC)
+157,Access Control,REVOKE
+158,Access Control,Specifying Privileges - Views
+159,Access Control,Discretionary access control (DAC)
+160,Discretionary access control (DAC),Trojan Horse attacks
+161,Discretionary access control (DAC),GRANT
+162,Discretionary access control (DAC),Access Control
+163,Discretionary access control (DAC),REVOKE
+164,Discretionary access control (DAC),Specifying Privileges - Views
+165,GRANT,Discretionary access control (DAC)
+166,Mandatory Access Control (MAC),Access Control
+167,SQL Injection,Database Security
+168,REVOKE,Access Control
+169,REVOKE,Discretionary access control (DAC)
+170,Specifying Privileges - Views,Access Control
+171,Specifying Privileges - Views,Discretionary access control (DAC)
+172,Role-Based Access Control (RBAC),Database Security
+173,Role-Based Access Control (RBAC),Access Control
+174,Authentication,Access Control
+175,Authentication,Database Security
+176,Trojan Horse attacks,Discretionary access control (DAC)
+177,Transactions,Logging
+178,Transactions,ACID Properties
+179,Transactions,Locking
+180,Transactions,Concurrent Transactions
+181,ACID Properties,Transactions
+182,ACID Properties,Isolation
+183,Isolation,Read Committed
+184,Isolation,Serializable
+185,Isolation,ACID Properties
+186,Isolation,Read Uncommitted
+187,Isolation,Locking
+188,Locking,Two-Phase Locking (2PL) Protocol
+189,Locking,Transactions
+190,Locking,Isolation
+191,Concurrent Transactions,The Unrepeatable Read Problem
+192,Concurrent Transactions,Transactions
+193,Concurrent Transactions,The Dirty Read Problem
+194,Concurrent Transactions,The Lost Update Problem
+195,Two-Phase Locking (2PL) Protocol,Locking
+196,Logging,Transactions
+197,The Dirty Read Problem,Concurrent Transactions
+198,The Unrepeatable Read Problem,Concurrent Transactions
+199,The Lost Update Problem,Concurrent Transactions
+200,Read Uncommitted,Isolation
+201,Read Committed,Isolation
+202,Serializable,Isolation
